@@ -10,12 +10,12 @@ import Additem from "./components/Additem";
 function App() {
   const ProductList = [
     {
-      name: "iphone",
+      name: "I-Phone",
       price: 99999,
       quantity: 0,
     },
     {
-      name: "samsung",
+      name: "Samsung",
       price: 9999,
       quantity: 0,
     },

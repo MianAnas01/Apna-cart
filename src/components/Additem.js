@@ -28,14 +28,14 @@ class Additem extends React.Component {
                         value={this.state.productName}
 
                     />
-                </div>
-                <div className="mb-3 col-4" >
-                    <label htmlFor="inputPrice" className="form-label">Price</label>
-                    <input type="number" className="form-control" id="Price"
-                        name="productPrice"
+</div>
+<div className="mb-3 col-4" >
+    <label htmlFor="inputPrice" className="form-label">Price</label>
+    <input type="number" className="form-control" id="Price"
+   name="productPrice"
 
-                        onChange={(e) => {
-                            this.setState({ productPrice: Number(e.currentTarget.value) })
+    onChange={(e) => {
+    this.setState({ productPrice: Number(e.currentTarget.value) })
                         }}
                         value={this.state.productPrice}
                     />
